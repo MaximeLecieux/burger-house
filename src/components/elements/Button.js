@@ -16,8 +16,6 @@ export default function Button({children, className, color, theme}) {
       break
   }
 
-  console.log(background)
-
   switch(theme){
     case 'small':
       return(

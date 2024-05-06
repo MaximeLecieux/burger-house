@@ -6,6 +6,11 @@
 
 body{
     font-family: 'Roboto';
+    @apply text-secondary;
+}
+
+p{
+    @apply mb-4;
 }
 
 .animate{

@@ -13,7 +13,7 @@ export default function Products() {
         <HeadingTitles>
             Toujours des délicieux burgers
         </HeadingTitles>
-        <Heading theme="secondary">
+        <Heading theme="secondary" alignement="center" className="my-5">
             Choisissez et savourez 
         </Heading>
 
@@ -31,7 +31,7 @@ export default function Products() {
                     <img src={Product1} alt='Présentation du classic burger' className='bg-primary absolute top-0 left-0 w-full h-full object-cover z-0' />
                 </div>
                 <div className='flex flex-col items-center justify-center px-5 pb-5'>
-                    <Heading variant="h3">
+                    <Heading variant="h3" className="my-5">
                         Lorem ipsum dolor
                     </Heading>
                     <p className='text-center'>
@@ -47,7 +47,7 @@ export default function Products() {
                     <img src={Product2} alt='Présentation du double cheese burger' className='bg-primary absolute top-0 left-0 w-full h-full object-cover z-0' />
                 </div>
                 <div className='flex flex-col items-center justify-center px-5 pb-5'>
-                    <Heading variant="h3">
+                    <Heading variant="h3" className="my-5">
                         Lorem ipsum dolor
                     </Heading>
                     <p className='text-center'>
@@ -63,7 +63,7 @@ export default function Products() {
                     <img src={Product3} alt='Présentation du campagnard burger' className='bg-primary absolute top-0 left-0 w-full h-full object-cover z-0' />
                 </div>
                 <div className='flex flex-col items-center justify-center px-5 pb-5'>
-                    <Heading variant="h3">
+                    <Heading variant="h3" className="my-5">
                         Lorem ipsum dolor
                     </Heading>
                     <p className='text-center'>
